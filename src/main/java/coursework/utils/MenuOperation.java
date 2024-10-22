@@ -30,6 +30,11 @@ public class MenuOperation {
                     if(consoleInput.equals("C")){
                         System.out.println("Enter data: login; password; name; surname;address; birth date YYYY-MM-DD");
                         consoleInput = scanner.nextLine();
+                        String[] info = consoleInput.split(";");
+
+                        //making the client
+
+                        Client client = new Client
                     }else{
                         if(consoleInput.equals("A")){
 
